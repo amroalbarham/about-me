@@ -1,7 +1,7 @@
 'use strict'
 
 
-let userName=prompt('please write the name  ')
+let userName=prompt('please write the name  ');
 // console.log(userName);
 alert('you are welcome in my website Mr '+userName);
 
