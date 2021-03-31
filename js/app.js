@@ -75,22 +75,30 @@ function question3(){
 questions3();
 
 
+function question4(){
 
-let brothers = prompt('Do I have brothers?');
-brothers = brothers.toLocaleLowerCase();
+        let brothers = prompt('Do I have brothers?');
+        brothers = brothers.toLocaleLowerCase();
 
-if (brothers == 'y' || brothers == 'yes') {
-        // console.log(brothers);
-        alert('yes i  have one brother');
-        score += 1;
+        if (brothers == 'y' || brothers == 'yes') {
+                // console.log(brothers);
+                alert('yes i  have one brother');
+                score += 1;
 
-} else if (brothers == 'n' || brothers == 'no') {
-        // console.log(brothers);
-        alert('no i don\'t have brothers');
-} else {
-        // console.log(brothers);
-        alert('please enter yes or no or y or n');
-}
+        } else if (brothers == 'n' || brothers == 'no') {
+                // console.log(brothers);
+                alert('no i don\'t have brothers');
+        } else {
+                // console.log(brothers);
+                alert('please enter yes or no or y or n');
+        }
+        }
+
+question4();
+
+
+
+
 let stars = prompt('Do I love the stars?');
 stars = stars.toLocaleLowerCase();
 
