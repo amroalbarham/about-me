@@ -33,3 +33,18 @@
 *i learned from write code we need to be attention for everything in the code that's about declare a variables and semicolon and parentheses*
 + **How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?**
 *it takes about two and half hours hours and expected that*
+
+
+
+## lab-04:
+
+**The navigator:**
+*Amro Albarham*
+
+
+**The Driver:**
+*Areej Haj Khalil*
+
+
+**what we do?**
+We worked ( Pair programming Process ) after we followed the steps , than We used tools like Fiction for every question and after each question we uploaded the content to Github.
