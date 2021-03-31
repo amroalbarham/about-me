@@ -97,23 +97,26 @@ function question4(){
 question4();
 
 
+function question5(){
+
+        let stars = prompt('Do I love the stars?');
+        stars = stars.toLocaleLowerCase();
+
+        if (stars == 'y' || stars == 'yes') {
+                // console.log(stars);
+                alert('yes i love stars');
+                score += 1;
+        } else if (stars == 'n' || stars == 'no') {
+                // console.log(stars);
+                alert('no i don\'t  love stars');
+        } else {
+                // console.log(stars);
+                alert('please enter yes or no or y or n');
+        }
+        }
 
 
-let stars = prompt('Do I love the stars?');
-stars = stars.toLocaleLowerCase();
-
-if (stars == 'y' || stars == 'yes') {
-        // console.log(stars);
-        alert('yes i love stars');
-        score += 1;
-} else if (stars == 'n' || stars == 'no') {
-        // console.log(stars);
-        alert('no i don\'t  love stars');
-} else {
-        // console.log(stars);
-        alert('please enter yes or no or y or n');
-}
-
+question5();
 
 
 let number = 5;
