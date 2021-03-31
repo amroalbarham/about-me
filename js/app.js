@@ -53,26 +53,27 @@ questions2();
 
 
  
-//function question3(){
+function question3(){
 
-        // let weather = prompt('Do I like the weather??');
-        // weather = weather.toLocaleLowerCase();
+         let weather = prompt('Do I like the weather??');
+         weather = weather.toLocaleLowerCase();
 
-        // if (weather == 'y' || weather == 'yes') {
-        //         // console.log(weather);
-        //         alert('yes i love hot weather');
-        //         score += 1;
+         if (weather == 'y' || weather == 'yes') {
+                 // console.log(weather);
+                alert('yes i love hot weather');
+                 score += 1;
 
-        // } else if (weather == 'n' || weather == 'no') {
-        //         // console.log(weather);
-        //         alert('no i don\'t love hot weather');
-        // } else {
-        //         // console.log(weather);
-        //         alert('please enter yes or no or y or n');
-        // }
-        // }
+         } else if (weather == 'n' || weather == 'no') {
+                 // console.log(weather);
+                 alert('no i don\'t love hot weather');
+         } else {
+                 // console.log(weather);
+                 alert('please enter yes or no or y or n');
+         }
+         }
 
-//questions3();
+questions3();
+
 
 
 let brothers = prompt('Do I have brothers?');
