@@ -2,25 +2,32 @@
 
 
 let score = 0;
-let userName = prompt('please write the name  ');
-// console.log(userName);
-alert('you are welcome in my website Mr ' + userName);
 
-let farmer = prompt('Am I a farmer?');
-farmer = farmer.toLocaleLowerCase();
+function question1(){
+        
+        let userName = prompt('please write the name  ');
+        // console.log(userName);
+        alert('you are welcome in my website Mr ' + userName);
 
-if (farmer == 'y' || farmer == 'yes') {
-        // console.log(farmer);
-        alert('yes great i\'m');
-        score += 1;
+        let farmer = prompt('Am I a farmer?');
+        farmer = farmer.toLocaleLowerCase();
 
-} else if (farmer == 'n' || farmer == 'no') {
-        // console.log(farmer);
-        alert('no i\'m a farmer !');
-} else {
-        // console.log(farmer);
-        alert('please enter yes or no or y or n');
-}
+        if (farmer == 'y' || farmer == 'yes') {
+                // console.log(farmer);
+                alert('yes great i\'m');
+                score += 1;
+
+        } else if (farmer == 'n' || farmer == 'no') {
+                // console.log(farmer);
+                alert('no i\'m a farmer !');
+        } else {
+                // console.log(farmer);
+                alert('please enter yes or no or y or n');
+        }
+        }
+
+question1();
+
 
 
 
