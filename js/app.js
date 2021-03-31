@@ -119,6 +119,8 @@ function question5(){
 question5();
 
 
+function question6(){
+
 let number = 5;
 
 for (let i = 0; i <= 3; i++) {
@@ -145,6 +147,14 @@ for (let i = 0; i <= 3; i++) {
         }
 
 }
+}
+
+question6();
+
+
+
+
+
 
 
 let playerList = ['NOVAK', 'DANIIL', 'NADAL', 'DOMINIC', 'DOMINIC', 'FEDERER', 'ZVEREV'];
