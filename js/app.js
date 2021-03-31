@@ -30,39 +30,49 @@ question1();
 
 
 
+function question2(){
 
-let player = prompt('Am I love Nadal ?');
-player = player.toLocaleLowerCase();
+        let player = prompt('Am I love Nadal ?');
+        player = player.toLocaleLowerCase();
 
-if (player == 'y' || player == 'yes') {
-        // console.log(player);
-        alert('correct,i love nadal ');
-        score += 1;
+        if (player == 'y' || player == 'yes') {
+                // console.log(player);
+                alert('correct,i love nadal ');
+                score += 1;
 
-} else if (player == 'n' || player == 'no') {
-        // console.log(player);
-        alert('wrong answer ');
-} else {
-        // console.log(player);
-        alert('please enter yes or no or y or n');
+        } else if (player == 'n' || player == 'no') {
+                // console.log(player);
+                alert('wrong answer ');
+        } else {
+                // console.log(player);
+                alert('please enter yes or no or y or n');
+        }
 }
 
+questions2();
 
-let weather = prompt('Do I like the weather??');
-weather = weather.toLocaleLowerCase();
 
-if (weather == 'y' || weather == 'yes') {
-        // console.log(weather);
-        alert('yes i love hot weather');
-        score += 1;
+ 
+//function question3(){
 
-} else if (weather == 'n' || weather == 'no') {
-        // console.log(weather);
-        alert('no i don\'t love hot weather');
-} else {
-        // console.log(weather);
-        alert('please enter yes or no or y or n');
-}
+        // let weather = prompt('Do I like the weather??');
+        // weather = weather.toLocaleLowerCase();
+
+        // if (weather == 'y' || weather == 'yes') {
+        //         // console.log(weather);
+        //         alert('yes i love hot weather');
+        //         score += 1;
+
+        // } else if (weather == 'n' || weather == 'no') {
+        //         // console.log(weather);
+        //         alert('no i don\'t love hot weather');
+        // } else {
+        //         // console.log(weather);
+        //         alert('please enter yes or no or y or n');
+        // }
+        // }
+
+//questions3();
 
 
 let brothers = prompt('Do I have brothers?');
