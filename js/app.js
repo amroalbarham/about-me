@@ -3,11 +3,15 @@
 
 let score = 0;
 
+let userName = prompt('please write the name  ');
+// console.log(userName);
+alert('you are welcome in my website Mr ' + userName);
+
 function question1(){
+
         
-        let userName = prompt('please write the name  ');
-        // console.log(userName);
-        alert('you are welcome in my website Mr ' + userName);
+
+     
 
         let farmer = prompt('Am I a farmer?');
         farmer = farmer.toLocaleLowerCase();
@@ -30,7 +34,7 @@ question1();
 
 
 
-function question2(){
+function questions2(){
 
         let player = prompt('Am I love Nadal ?');
         player = player.toLocaleLowerCase();
@@ -47,7 +51,7 @@ function question2(){
                 // console.log(player);
                 alert('please enter yes or no or y or n');
         }
-}
+ }
 
 questions2();
 
@@ -72,7 +76,7 @@ function question3(){
          }
          }
 
-questions3();
+question3();
 
 
 function question4(){
@@ -155,7 +159,7 @@ question6();
 
 
 
-
+function question7(){
 
 let playerList = ['NOVAK', 'DANIIL', 'NADAL', 'DOMINIC', 'DOMINIC', 'FEDERER', 'ZVEREV'];
 for (let i = 0; i < 6; i++) {
@@ -181,6 +185,10 @@ for (let i = 0; i < 6; i++) {
        
 
 }
+}
+
+question7();
+
 
 alert("the answer sheet\n NOVAK or DANIIL or NADAL or DOMINIC or  DOMINIC or FEDERER or ZVEREV ");
 
