@@ -1,3 +1,10 @@
+body {
+    width: 750px;
+    background-color: burlywood;
+    color: #5a4416;}
+
+
+
 #nice{
     font-size: 50px;
     font-family: serif;
@@ -9,8 +16,10 @@
     color: cadetblue;
     background-color: rgb(177, 210, 30);
     width: 700px;
-    height: 200px;
+    height: 150px;
     font-size: 30px;
+    padding-left: 15px;
+    
 }
 #last{
     text-align: right;
@@ -21,3 +30,17 @@
     vertical-align: middle;
     font-size:  20px; ;
 }
+
+ol {
+    border: 3px solid #665544;
+    overflow: auto;
+    width: 30%;
+    height:220px;
+    padding-top: 20px;
+    width: 40%;
+
+} 
+#move{
+    height: 30px;
+}
+   
