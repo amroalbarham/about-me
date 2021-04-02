@@ -1,46 +1,91 @@
 body {
-    width: 750px;
+    
     background-color: burlywood;
-    color: #5a4416;}
+    color: #5a4416;
+    position: relative;
+}
 
 
 
 #nice{
-    font-size: 50px;
-    font-family: serif;
+
+    padding-bottom: 10px;
+    font-size: 60px;
+    font-family: 'Abril Fatface', cursive;
     color: blue;
     text-align: center;
     background-color: burlywood;
-}
-.note{
-    color: cadetblue;
+    
+    }
+#note{
+    color:darkblue;
     background-color: rgb(177, 210, 30);
-    width: 700px;
     height: 150px;
-    font-size: 30px;
+    font-size: 40px;
     padding-left: 15px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: absolute;
+    border: 2px solid #864000;
+
     
 }
 #last{
     text-align: right;
-    background-color: cyan;
+    color: #feffde;
+    background-color: #2f5d62;
     padding-right: 20px;
     height: 50px;
-    width: 680px;
+    width: 100%;
     vertical-align: middle;
-    font-size:  20px; ;
+    font-size:  25px; ;
+    position: relative;
+    top: 550px;
+    padding-top: 25px;
+    
 }
+    
 
-ol {
+#move{
     border: 3px solid #665544;
+    font-size: 30px;
     overflow: auto;
     width: 30%;
-    height:220px;
+    height: 350px;
     padding-top: 20px;
-    width: 40%;
-
+    width: 35%;
+    background-color:cadetblue;
+    font-family: 'Amatic SC', cursive;
+    float: left;
+    margin-left: 30px ;
+    
 } 
-#move{
-    height: 30px;
+img{
+    border: 3px solid #665544;
+    float: right; 
+    position: relative;
+    right: 100px; 
+    padding-top: 0px;
+    height: 370px;
+    margin-top: 30px;
+    border: 5px solid #ddd;
+    border-radius: 100px;
+    object-fit: cover;
 }
-   
+
+section p {
+    font-size: 30px;
+    font-family: 'New Tegomin', serif;
+}
+section {
+    
+    font-size: 25px;
+    position: absolute;
+    left: 50px;
+    top : 650px;
+    font-family: 'Train One', cursive;
+
+}
+  

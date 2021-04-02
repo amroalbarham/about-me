@@ -1,10 +1,9 @@
 'use strict';
 
 
-let score = 0;
-
+let score=0;
 let userName = prompt('please write the name  ');
-// console.log(userName);
+
 alert('you are welcome in my website Mr ' + userName);
 
 function question1(){
@@ -17,15 +16,15 @@ function question1(){
         farmer = farmer.toLocaleLowerCase();
 
         if (farmer == 'y' || farmer == 'yes') {
-                // console.log(farmer);
+                
                 alert('yes great i\'m');
                 score += 1;
 
         } else if (farmer == 'n' || farmer == 'no') {
-                // console.log(farmer);
+                
                 alert('no i\'m a farmer !');
         } else {
-                // console.log(farmer);
+                
                 alert('please enter yes or no or y or n');
         }
         }
@@ -40,15 +39,15 @@ function questions2(){
         player = player.toLocaleLowerCase();
 
         if (player == 'y' || player == 'yes') {
-                // console.log(player);
+                
                 alert('correct,i love nadal ');
                 score += 1;
 
         } else if (player == 'n' || player == 'no') {
-                // console.log(player);
+                
                 alert('wrong answer ');
         } else {
-                // console.log(player);
+                
                 alert('please enter yes or no or y or n');
         }
  }
@@ -63,15 +62,15 @@ function question3(){
          weather = weather.toLocaleLowerCase();
 
          if (weather == 'y' || weather == 'yes') {
-                 // console.log(weather);
+                 
                 alert('yes i love hot weather');
                  score += 1;
 
          } else if (weather == 'n' || weather == 'no') {
-                 // console.log(weather);
+                 
                  alert('no i don\'t love hot weather');
          } else {
-                 // console.log(weather);
+                 
                  alert('please enter yes or no or y or n');
          }
          }
@@ -85,15 +84,15 @@ function question4(){
         brothers = brothers.toLocaleLowerCase();
 
         if (brothers == 'y' || brothers == 'yes') {
-                // console.log(brothers);
+                
                 alert('yes i  have one brother');
                 score += 1;
 
         } else if (brothers == 'n' || brothers == 'no') {
-                // console.log(brothers);
+                
                 alert('no i don\'t have brothers');
         } else {
-                // console.log(brothers);
+                
                 alert('please enter yes or no or y or n');
         }
         }
@@ -107,14 +106,14 @@ function question5(){
         stars = stars.toLocaleLowerCase();
 
         if (stars == 'y' || stars == 'yes') {
-                // console.log(stars);
+                
                 alert('yes i love stars');
                 score += 1;
         } else if (stars == 'n' || stars == 'no') {
-                // console.log(stars);
+                
                 alert('no i don\'t  love stars');
         } else {
-                // console.log(stars);
+                
                 alert('please enter yes or no or y or n');
         }
         }
@@ -177,7 +176,7 @@ for (let i = 0; i < 6; i++) {
                         
                         i =7;
                         break;
-                        // console.log();
+                        
                 }
 
 
@@ -191,12 +190,6 @@ question7();
 
 
 alert("the answer sheet\n NOVAK or DANIIL or NADAL or DOMINIC or  DOMINIC or FEDERER or ZVEREV ");
-
-
-
-
-
-
 
 
 
